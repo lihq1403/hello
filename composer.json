@@ -1,0 +1,20 @@
+{
+    "name": "lihq/hello",
+    "description": "echo hello world",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lihq",
+            "email": "lihaiqing1994@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+		"php": ">=7.0.0"
+	},
+    "autoload": {
+        "psr-4": {
+            "Hello\\": "src/"
+        }
+    }
+}
